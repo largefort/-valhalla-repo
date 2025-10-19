@@ -1,0 +1,218 @@
+Package: valhalla-auto-brightness
+Priority: optional
+Section: x11
+Installed-Size: 15
+Maintainer: ValhallaOS Buildbot <builds@valhallaos.example>
+Architecture: all
+Version: 1.0
+Depends: init-system-helpers (>= 1.52), python3, brightnessctl, upower
+Filename: pool/main/v/valhalla-auto-brightness/valhalla-auto-brightness_1.0_all.deb
+Size: 2332
+MD5sum: 59b74eff4ed43f9ee1526720aee7e2ff
+SHA1: 7dee879ecbf5c160853c25f9a6970ff08571dad2
+SHA256: 3245f11a2596087146d4f21736b42677738a7b75394cbe5b28d5939013a9a47a
+SHA512: c83866fe1e5dd40d1961398a5b1ad98082b9e2448d93970848bcc5c2de4fc322134efc480d46ac84f32bb74fc6a973bedaffa752e09a2fac653ea123be905cee
+Description: Simple auto-brightness user daemon
+ Adjusts screen brightness using time-of-day and AC/battery state.
+
+Package: valhalla-backup
+Priority: optional
+Section: admin
+Installed-Size: 20
+Maintainer: ValhallaOS Buildbot <builds@valhallaos.example>
+Architecture: all
+Version: 1.0
+Depends: borgmatic, borgbackup
+Filename: pool/main/v/valhalla-backup/valhalla-backup_1.0_all.deb
+Size: 2280
+MD5sum: 59dda99b095ebc07e9c52adbbc359bef
+SHA1: 5934b2565261660dd0d0f0468451a307487c9b9f
+SHA256: 35c31d5ab69fa29854ec71ed5c55a2fa079422a337418603d91340266e379335
+SHA512: dca15da663454d406b69496cf19d52d27f6f6571039e7ae6dff6997ef4fe606d9ecf8daa19655d2ca5c5feb19561edf1c72adc3aeb3b576e362b7f784b913dc3
+Description: Weekly backup setup for ValhallaOS (borgmatic)
+ Installs a template configuration and weekly timer.
+
+Package: valhalla-controller-support
+Priority: optional
+Section: utils
+Installed-Size: 12
+Maintainer: ValhallaOS Buildbot <builds@valhallaos.example>
+Architecture: all
+Version: 1.0
+Depends: joystick, jstest-gtk
+Filename: pool/main/v/valhalla-controller-support/valhalla-controller-support_1.0_all.deb
+Size: 1392
+MD5sum: a4a08d1b753be9c5c4033184782c1239
+SHA1: 53f49fba526b8b9e99d397221b3f126788c1ba81
+SHA256: 6533e5ebd6b8f1fe21edc98ce50ff0b2029b4e65036221b4b9d7b5b126bd0084
+SHA512: de52c56501fc50e612f94ceebceb51db949d09fb54d54f70040c0b9e4151c03ad6249f00253dbe9c8c061bbb20146f32c71ec20d67fcb41b86a461cfb65f0c6a
+Description: Controller udev rules and tools for ValhallaOS
+ Adds permissive udev rules for common gamepads and installs tester tools.
+
+Package: valhalla-desktop-core
+Priority: optional
+Section: metapackages
+Installed-Size: 7
+Maintainer: ValhallaOS Buildbot <builds@valhallaos.example>
+Architecture: all
+Version: 1.0
+Depends: gnome-shell, gdm3, gnome-session, gnome-control-center, gnome-terminal, nautilus, gnome-system-monitor, gnome-software, gnome-software-plugin-flatpak, pipewire, pipewire-audio, wireplumber, pavucontrol, network-manager, xdg-user-dirs, xdg-desktop-portal, xdg-desktop-portal-gnome
+Filename: pool/main/v/valhalla-desktop-core/valhalla-desktop-core_1.0_all.deb
+Size: 1244
+MD5sum: b185c9ec17d2537b6003a1d9ddc1d909
+SHA1: cdc623786a6d9a3afa628c30984ad022ee9d4ae8
+SHA256: e792ed64d3e6d51ebf8c0d17447d8db18c20c465b230279a66acd9e4a6cd381f
+SHA512: 6242acb09e4a4d2aa6881d0a68358af51769de190e44ca0938d612091d099bfd63fa3f5ce31a068defc0c6083b578722be2875474df54c21dc8195daec34373c
+Description: ValhallaOS GNOME desktop core
+ Minimal GNOME session and audio/network plumbing.
+
+Package: valhalla-feedback
+Priority: optional
+Section: utils
+Installed-Size: 11
+Maintainer: ValhallaOS Buildbot <builds@valhallaos.example>
+Architecture: all
+Version: 1.0
+Depends: lscpu, pciutils, coreutils
+Filename: pool/main/v/valhalla-feedback/valhalla-feedback_1.0_all.deb
+Size: 1812
+MD5sum: bf5889e47bc36d9ebc9f017172ae593c
+SHA1: afab4b3950ddd9100c62500b8a52e2cc39944598
+SHA256: 729bc47b0c4cc4e32f7ddd352e0c8b787f87568881aa02e2f0610cbcff443d0c
+SHA512: 3f1b4840227836f0705b4bdd1399a8c874ac2e9222d00b42e715cbf0621600d2f7f64101ec54838e87b436a1a9e61c747195cdaea645b3522b0558c323e12870
+Description: Opt-in feedback helper for ValhallaOS
+ Prints anonymized hardware/OS info; user decides if/where to submit.
+
+Package: valhalla-firstboot
+Priority: optional
+Section: misc
+Installed-Size: 17
+Maintainer: ValhallaOS Buildbot <builds@valhallaos.example>
+Architecture: all
+Version: 1.0
+Depends: init-system-helpers (>= 1.52), zenity, flatpak, libnotify-bin
+Filename: pool/main/v/valhalla-firstboot/valhalla-firstboot_1.0_all.deb
+Size: 2460
+MD5sum: a480b5ca5eefd50b843b387bfbfdcd80
+SHA1: 4b95eff63736e3f3938afaa88f2e3b5a1a7fd588
+SHA256: 43b2bde9b16f926f2f1d99e5d665b4ef815ab8f07f91ab924f35a9e74b2fc20f
+SHA512: 991f438c686f2d92551bb098586cf18426fbf26cfa68d028ec58ff69fe1b147019b5b128ddc47eba2ef3b8ca94615a75ed574caa53c2068230ee97397c0766c8
+Description: First-boot wizard for ValhallaOS
+ Guides users through enabling Flathub and picking presets. Runs once at first login.
+
+Package: valhalla-gaming-kernel-tweaks
+Priority: optional
+Section: misc
+Installed-Size: 15
+Maintainer: ValhallaOS Buildbot <builds@valhallaos.example>
+Architecture: all
+Version: 1.0
+Filename: pool/main/v/valhalla-gaming-kernel-tweaks/valhalla-gaming-kernel-tweaks_1.0_all.deb
+Size: 1476
+MD5sum: 9a36f9141677b9b3674817ecf0b01ab1
+SHA1: 96c98028d2532808771a3cfa208f1bde63a88392
+SHA256: 9840e54d40f52d8b530f4a2b917d4170bc6632482df9685e3ba273422a344dd6
+SHA512: f0b8cb600a8b5080650b7a8f849950fffc78455ccf7eb4c3a638350ee5955f886f4067b9dbdd505eb11a2f44bb1eaaf7ba38a7a21d28f977fdb130cb6c9188f2
+Description: Kernel and scheduler tweaks for gaming
+ Applies low-latency oriented sysctl and limits.d presets.
+
+Package: valhalla-gpu-switcher
+Priority: optional
+Section: utils
+Installed-Size: 12
+Maintainer: ValhallaOS Buildbot <builds@valhallaos.example>
+Architecture: all
+Version: 1.0
+Depends: zenity
+Filename: pool/main/v/valhalla-gpu-switcher/valhalla-gpu-switcher_1.0_all.deb
+Size: 1740
+MD5sum: 076dbdfd123275c8eacd3268b0a8a80e
+SHA1: bc88c09db6c972c5a961c7938c69ccefc1cc327e
+SHA256: 0a3ae142f0aeb114a31eac9828b84c10c2748de0acee43e035669dbc304a1bcd
+SHA512: 7139d80accc953bbb2fcdaffeaa62e1ed33ba6cd32caf34457df965bb7cb46d84e3ce5e29343b916a94bbe6952b4a3ef7c1a9ada6f7a2c996f87c41817b8bece
+Description: PRIME GPU selection wrappers and launchers
+ Provides dgpu/igpu wrappers for launching apps on desired GPU.
+
+Package: valhalla-installer
+Priority: optional
+Section: admin
+Installed-Size: 13
+Maintainer: ValhallaOS Buildbot <builds@valhallaos.example>
+Architecture: all
+Version: 1.0
+Depends: calamares
+Filename: pool/main/v/valhalla-installer/valhalla-installer_1.0_all.deb
+Size: 1392
+MD5sum: 4fb3806cb6591d80ffb18350261ed7c4
+SHA1: bd614aa408a4a5b89a936023b9b19094f42ee740
+SHA256: b3c2b0522f8f09071b4eba05b75c3e24f96392ff7e569e024f872aba4637caa7
+SHA512: e74eaaee08a0b57427b601f3e77576fc48a177e3f0233670c732028e8c09d785fc6decc7c5f32c06846195db90ab72d8833a4bf83b26b2cf4beba625ec7d0e2d
+Description: ValhallaOS installer configuration
+ Calamares skeleton configuration for ValhallaOS.
+
+Package: valhalla-laptop-tweaks
+Priority: optional
+Section: misc
+Installed-Size: 21
+Maintainer: ValhallaOS Buildbot <builds@valhallaos.example>
+Architecture: all
+Version: 1.0
+Depends: power-profiles-daemon, iw
+Filename: pool/main/v/valhalla-laptop-tweaks/valhalla-laptop-tweaks_1.0_all.deb
+Size: 2336
+MD5sum: 19d4729bde5f0db95d26ac21f6f42196
+SHA1: bc7e121402f4537218de1a40dbe6d40f398ec596
+SHA256: 53f85d97ead8cc6a16699f3e06963f1b2d2fb166dc83ee3dac0942fcdeabbf96
+SHA512: 7cc60c74c982c025a0b472f946573e58aec261c268809e6f135afd2a7a490c3e29a1861936031f5b7283927d73bef24c6a1b57966dbc39e9a4fade64bedf5bef
+Description: Laptop power presets for ValhallaOS
+ Applies power profile and Wi-Fi powersave at boot.
+
+Package: valhalla-proton-ge
+Priority: optional
+Section: games
+Installed-Size: 11
+Maintainer: ValhallaOS Buildbot <builds@valhallaos.example>
+Architecture: all
+Version: 1.0
+Filename: pool/main/v/valhalla-proton-ge/valhalla-proton-ge_1.0_all.deb
+Size: 1648
+MD5sum: 5a1b10b6a820d02582feb4dd69b363fa
+SHA1: 8446d105a614138174067fa6a4a35447fa769a00
+SHA256: 6de4c7090da4367a09de31955046bfd4322495eb225a567e59fda6eac69f5e3e
+SHA512: 1abef7d558ca4346f86ea47dd86fbd06fdacdf6906b258a1610f0eeb2262897f363901cbcbd360c96fde47d5dc0347790879c03b8c9450b946d1f30555fcb8eb
+Description: Proton-GE helper for ValhallaOS
+ Helps users install GE-Proton in the right place for Steam.
+
+Package: valhalla-recovery
+Priority: optional
+Section: utils
+Installed-Size: 7
+Maintainer: ValhallaOS Buildbot <builds@valhallaos.example>
+Architecture: all
+Version: 1.0
+Depends: gparted, testdisk, photorec, btrfs-progs, ntfs-3g, mdadm, nvme-cli, lvm2, rsync, curl, wget, openssh-client
+Filename: pool/main/v/valhalla-recovery/valhalla-recovery_1.0_all.deb
+Size: 1188
+MD5sum: 4d260714c29bdbdbcb4ac614779df6e1
+SHA1: c083858dee3519ef32aa365a8e8df355e654670f
+SHA256: ba276beff68de1eb319eefdebcb919c313c2007be7b86922faaa1428ffb6a8f2
+SHA512: 577eb50a39f1356e76d9a82719116a347a3c85e9545619f68856f58c876aea0c27aa63d99c8130f03c3c66f974e7a9aeff4b57f1143f7ee8fe7e38b73997f192
+Description: Recovery tools for ValhallaOS live media
+ Pulls in a curated set of storage/network recovery tools.
+
+Package: valhalla-release
+Priority: optional
+Section: admin
+Installed-Size: 12
+Maintainer: ValhallaOS Buildbot <builds@valhallaos.example>
+Architecture: all
+Version: 1.0
+Filename: pool/main/v/valhalla-release/valhalla-release_1.0_all.deb
+Size: 1360
+MD5sum: 75b7ded7efa7a516c3a48fc4eeb9f3ae
+SHA1: 86803e5f2fa31d252b04a93bb7554448840af178
+SHA256: 0cfbc1df1d61f33be2bf3305df1d6f4ea7276fce905e21e858ceb5359555f460
+SHA512: 0c41393402e581ba4f2f81441462a34bba7fc42e4a0c6b708a724f44166d8d1e7bd52d262af92cb6dfbec0560eb248d851b6d7c9322a2b6004583303346c46c9
+Description: ValhallaOS release identifiers and branding
+ Provides /etc/os-release and login banner.
+

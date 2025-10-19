@@ -1,0 +1,7 @@
+Origin: . valhalla
+Label: . valhalla
+Archive: valhalla
+Suite: valhalla
+Codename: valhalla
+Architecture: amd64
+Component: main
